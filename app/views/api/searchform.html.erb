@@ -1,0 +1,14 @@
+Search form: <input id="search_text" type="text" /> <input id="search_btn" type="submit" value="Search" />
+
+<script type="text/javascript">
+	$("#search_btn").click(function(){
+		var text = $("#search_text").val();
+		$.get("/api/contacts/" + text).done(function(data){
+			var result = JSON.stringify(data);
+			console.log(result);
+			alert('we got data: ' + result);
+		});
+	})
+
+
+</script>

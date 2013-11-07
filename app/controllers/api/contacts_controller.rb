@@ -22,4 +22,7 @@ class Api::ContactsController < ApplicationController
 		render :json => { success: :true, payload: users }
 	end
 
+	def searchform
+	end
+
 end

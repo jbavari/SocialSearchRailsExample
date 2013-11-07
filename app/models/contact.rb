@@ -9,6 +9,6 @@ class Contact
 			users_array << item
 		end
 
-		return users
+		return users_array
 	end
 end
