@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 
 # Note here in this rails app, we have to list the gems we use for our api calls.
 gem 'fb_graph'
+gem 'omniauth-facebook'
 
 
 # Use sqlite3 as the database for Active Record
